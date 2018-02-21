@@ -1,0 +1,30 @@
+{
+  "name": "electron_react_redux_bootstrap",
+  "version": "0.0.1",
+  "description": "electron react redux bootstrap boilerplate",
+  "main": "index.js",
+  "author": "GHIAT Houssem",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env ELECTRON_WEBPACK_APP_DEV=true electron-webpack dev",
+    "build": "electron-webpack"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.3",
+    "electron": "^1.8.2",
+    "electron-devtools-installer": "^2.2.3",
+    "electron-webpack": "^1.13.0",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "source-map-support": "^0.5.3"
+  }
+}
